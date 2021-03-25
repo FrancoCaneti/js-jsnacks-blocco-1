@@ -93,4 +93,13 @@ array1 = ['3','8','25','57','68'];
 
 array2 = ['7', '54'];
 
-while ()
+
+for (i = 0; i < array1.length; i++){
+    var nuovoNumero = Math.floor(Math.random()*10);
+
+    if(array2.length < array1.length){
+        array2.push(nuovoNumero);
+    } 
+}
+console.log(array1);
+console.log(array2);
