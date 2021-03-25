@@ -68,3 +68,29 @@ listaFake = arrayNomi[nomeRandom] + ' ' + arrayCognomi[cognomeRandom];
 console.log(listaFake);
 }   */
  
+//Crea un array di numeri interi 
+//fai la somma di tutti gli elementi che sono in posizione dispari
+
+/*var numeri = ['5','6','8','3','7','9','8'];
+ 
+var somma = 0;
+
+for( var i = 0; i < numeri.length; i++) {
+     console.log( numeri[i]);
+    if( i % 2 !== 0 ){
+        somma += numeri[i];      
+    }
+}
+
+console.log('tot: ',somma);*/
+
+//Esercizio 5 - Bonus
+//Crea due array di numeri che hanno un numero di elementi diversi.
+//Aggiungi elementi all’array che ha meno elementi fino a quando ne avrà tanti quanti l’altro.
+
+
+array1 = ['3','8','25','57','68'];
+
+array2 = ['7', '54'];
+
+while ()
